@@ -22,7 +22,7 @@ The The display screen of the app contains :
     - two buttons for the good and bad review , 
     -two messagge for instruction, 
     -two invisible components :web, clock .
-   ```
+    ```
 The coding part has three major blocks - 
     **first**: When the button for good review is taped the block is executed , it iterates the value of variable(c) and passing the value of c to the "write api" for feeding it in field one.
                Also disabling both the review button for 10 sec becouse the thinkspeak sever can take one value every 10 sec. 
