@@ -2,7 +2,7 @@
 
 ![This is an image](https://miro.medium.com/proxy/1*_JW1JaMpK_fVGld8pd1_JQ.gif)
 
-It is a smart review system for general store, restaurents, Shoping Malls etc. 
+It is a smart review system for general store, restaurents, Shopping Malls etc. 
 This project involves building an app on [MIT app inventor](https://appinventor.mit.edu/) for reciving user review and connecting it to [Thinkspeak cloud service](https://thingspeak.com/) for uploading data and providing analysis of the collected review.
 
 ## Getting started
