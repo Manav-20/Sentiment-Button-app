@@ -16,15 +16,15 @@ Thinkspeak channel- Create a new channel and provide atleat two fields for reciv
 
 ### Methodology
 
-The The display screen of the app contains :\n
+The The display screen of the app contains :
     ```
-    - a heading for the name of the mart, \n
-    - two buttons for the good and bad review , \n
-    -two messagge for instruction, \n
-    -two invisible components :web, clock .\n
+    - a heading for the name of the mart, 
+    - two buttons for the good and bad review ,
+    -two messagge for instruction, 
+    -two invisible components :web, clock .
     ```
-The coding part has three major blocks - \n
-    **first**: When the button for good review is taped the block is executed , it iterates the value of variable(c) and passing the value of c to the "write api" for feeding it in field one.\n
-               Also disabling both the review button for 10 sec becouse the thinkspeak sever can take one value every 10 sec. \n
-    **second**: Both the buttons are enabled back for use . \n
-    **third**: Value of the variable (c2) is updated and passed to the api key for the bad review and also both the buttons are disabled .\n
+The coding part has three major blocks - 
+    **first**: When the button for good review is taped the block is executed , it iterates the value of variable(c) and passing the value of c to the "write api" for feeding it in field one.
+               Also disabling both the review button for 10 sec becouse the thinkspeak sever can take one value every 10 sec.
+    **second**: Both the buttons are enabled back for use . 
+    **third**: Value of the variable (c2) is updated and passed to the api key for the bad review and also both the buttons are disabled .
