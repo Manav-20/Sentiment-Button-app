@@ -10,10 +10,11 @@ Below given are the instructions which will help you understand and setup simill
 ### Prerequisites
 
 You have to create an account on MIT app inventor and Thinkspeak cloud service.
-MIT app inventor- On the designer page drag and drop different component required on the main page  \n Then create the block code for the back end working of app .
-Thinkspeak channel- Create a new channel and provide atleat two fields for reciving Good and bad review. Set the color, no. of results, time frame of the graph on required on the two fields.
+MIT app inventor- On the designer page drag and drop different component required on the main page.
+                  Then create the block code for the back end working of app.
+Thinkspeak channel- Create a new channel and provide atleat two fields for reciving Good and bad review. Set the color, no. of results, time frame of the graph                       on required on the two fields.
 
-#### Methodology
+### Methodology
 
 The The display screen of the app contains :
     -a heading for the name of the mart, 
