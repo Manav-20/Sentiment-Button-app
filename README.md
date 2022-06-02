@@ -1,30 +1,32 @@
 # Sentiment-Button-app
 
-It is a smart review system for general store, resturents, marts etc. 
-This project involves building an app on MIT app inventor for reciving user review and connecting it to Thinkspeak cloud service for uploading data and providing data analytics
+![This is an image](https://miro.medium.com/proxy/1*_JW1JaMpK_fVGld8pd1_JQ.gif)
+
+It is a smart review system for general store, restaurents, Shoping Malls etc. 
+This project involves building an app on [MIT app inventor](https://appinventor.mit.edu/) for reciving user review and connecting it to [Thinkspeak cloud service](https://thingspeak.com/) for uploading data and providing analysis of the collected review.
 
 ## Getting started
 
-Below given are the instructions which will help you understand and setup simillar project in your system .
+The instructions provided below will help you understand and setup the environment for the project in your local system.
 
 ### Prerequisites
 
-You have to create an account on MIT app inventor and Thinkspeak cloud service.
-MIT app inventor- On the designer page drag and drop different component required on the main page.
-                  Then create the block code for the back end working of app.
-Thinkspeak channel- Create a new channel and provide atleat two fields for reciving Good and bad review. Set the color, no. of results, time frame of the graph                       on required on the two fields.
+Create an account on MIT app inventor and Thinkspeak cloud service through the above mentioned links.
+**MIT app inventor** - Open the designer page and include component required onto the main page. Then create the block code for the back end working of the app.
+<br>
+**Thinkspeak channel** - Create a new channel. Connect it to the build module in the MIT app through which you'll collect the responded data and incoorporate its analysis through different tools present in TSC Services.
 
 ### Methodology
 
-The The display screen of the app contains :
-    ```
-    - a heading for the name of the mart, 
-    - two buttons for the good and bad review ,
-    -two messagge for instruction, 
-    -two invisible components :web, clock .
-    ```
-The coding part has three major blocks - 
-    **first**: When the button for good review is taped the block is executed , it iterates the value of variable(c) and passing the value of c to the "write api" for feeding it in field one.
-               Also disabling both the review button for 10 sec becouse the thinkspeak sever can take one value every 10 sec.
-    **second**: Both the buttons are enabled back for use . 
-    **third**: Value of the variable (c2) is updated and passed to the api key for the bad review and also both the buttons are disabled .
+The display screen of the app will contain:</br>
+
+    A heading for the name of the mart, 
+    Two buttons for the good and bad review, 
+    Two messagge for instruction, 
+    Two invisible components: web, clock. 
+    
+We can describe the coding in three major steps - </br>
+    
+    First: When the button for good review is taped the block is executed, it iterates the value of predefined variable and passes the value to the "write api" for  feeding in field one. It Also disables both the review button for 10 sec becouse the thinkspeak sever can take one value every 10 seceonds.
+    Second: Both the buttons will be enabled back for use. 
+    Third: Value of the variable is then updated and passed to the api key for the bad review.
