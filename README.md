@@ -27,6 +27,6 @@ The display screen of the app will contain:</br>
     
 We can describe the coding in three major steps - </br>
     
-    *First*: When the button for good review is taped the block is executed, it iterates the value of predefined variable and passes the value to the "write api" for  feeding in field one. It Also disables both the review button for 10 sec becouse the thinkspeak sever can take one value every 10 seceonds.
-    *Second*: Both the buttons will be enabled back for use. 
-    *Third*: Value of the variable is then updated and passed to the api key for the bad review.
+    First: When the button for good review is taped the block is executed, it iterates the value of predefined variable and passes the value to the "write api" for  feeding in field one. It Also disables both the review button for 10 sec becouse the thinkspeak sever can take one value every 10 seceonds.
+    Second: Both the buttons will be enabled back for use. 
+    Third: Value of the variable is then updated and passed to the api key for the bad review.
